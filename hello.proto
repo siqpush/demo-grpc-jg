@@ -1,0 +1,17 @@
+syntax = "proto3";
+option go_package = "github.com/siqpush/hello/hello";
+
+message HelloRequest {
+  string name = 1;
+  int32 count = 2;
+}
+
+message HelloReply {
+  string message = 1;
+  int32 count = 2;
+}
+
+service HelloService {
+  rpc SayHello (HelloRequest) returns (HelloReply);
+}
+
