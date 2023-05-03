@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "github.com/siqpush/hello/hello";
+option go_package = "github.com/siqpush/demo-grpc-jg/hello";
 
 message HelloRequest {
   string name = 1;

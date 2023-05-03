@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"github/siqpush/demo-grpc-jg/hello"
+	"github.com/siqpush/demo-grpc-jg/hello"
 	"log"
 	"net"
 	"google.golang.org/grpc"
