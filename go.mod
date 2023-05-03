@@ -1,4 +1,4 @@
-module github/siqpush/demo-grpc-jg
+module github.com/siqpush/demo-grpc-jg
 
 go 1.20
 
